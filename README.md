@@ -13,6 +13,8 @@ facial landmark points, and if a person in the video is smiling, the program lab
 
 * imutils
 
+* You also need to install 'shape_predictor_68_face_landmarks.dat' which you can find here  https://www.kaggle.com/datasets/sergiovirahonda/shape-predictor-68-face-landmarksdat
+
 ## Usage
 
 To run the program, simply execute the smile_detection.py file in your Python environment.
