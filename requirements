@@ -1,0 +1,5 @@
+cmake==3.25.2
+dlib==19.24.0
+imutils==0.5.4
+numpy==1.23.5
+Pillow==9.4.0
