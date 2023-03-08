@@ -9,7 +9,7 @@ facial landmark points, and if a person in the video is smiling, the program lab
 
 * OpenCV
 
-* dLib
+* Dlib
 
 * imutils
 
