@@ -18,13 +18,12 @@ while True:
     ret, image = cap.read()
     gray_image = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
         
-    # detecting faces in the grayscale image
+    # Detecting faces in the grayscale image
     faces = detector(gray_image, 0)
     
-    # loop over the face detections
     for face in faces:
-        # determining the facial landmarks for the face region and converting
-        # the facial landmark (x, y)-coordinates to a nd.array
+        # Determining the facial landmarks for the face region and converting
+        # the facial landmark (x, y) to a numpy nd.array
         x_face, y_face = face.left(), face.top()
         w_face, h_face = face.right() - x_face, face.bottom() - y_face 
         #cv.rectangle(image, (x, y),(x + w, y + h), (255, 255, 255), 3)
