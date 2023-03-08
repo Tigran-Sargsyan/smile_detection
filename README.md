@@ -1,4 +1,4 @@
-# Smile Detection using OpenCV and dLib Libraries
+# Smile Detection using OpenCV and Dlib Libraries
 
 This program is designed to detect smiles in real-time video using OpenCV and dLib libraries. Different characteristics are computed by 
 facial landmark points, and if a person in the video is smiling, the program labels the video as "smiling" and saves the smiling images in a folder.
