@@ -24,3 +24,9 @@ If a person in the video is smiling, the program will label the video as "Smilin
 The images will be saved every 3 seconds.
 
 You can exit the program by pressing the 'q' key.
+
+## Demo 
+
+You can watch the demo video with the link below
+
+https://www.youtube.com/watch?v=eD_qwxomSxc
